@@ -6,9 +6,9 @@ A Spring Boot REST API for an e-commerce store with user authentication, product
 Tech Stack
 
 | Layer | Technology |
-| Language | Java 25 |
-| Framework | Spring Boot 4.0.5 |
-| Security | Spring Security + JWT (Auth0 java-jwt 4.4.0) |
+| Language | Java 21 |
+| Framework | Spring Boot 3.0.5 |
+| Security | Spring Security + JWT (Auth0 java-jwt 3.4.0) |
 | Persistence | Spring Data JPA / Hibernate |
 | Database | MySQL |
 | Build | Maven |
@@ -17,8 +17,8 @@ Getting Started
 
 Prerequisites
 
-- Java 25+
-- Maven 3.8+
+- Java 21+
+- Maven 3.0+
 - MySQL 8+
 
  1. Clone the repository
