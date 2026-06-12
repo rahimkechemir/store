@@ -145,6 +145,3 @@ src/main/java/com/rahim/store/
 ├── model/                  # JPA entities (LocalUser, Product, Inventory, Address, Weborder, WebOrderQuantities)
 │   └── dao/                # Spring Data repositories
 └── service/                # UserService, JWTService, EncryptionService
-
-
-This project is currently unlicensed. Add a `LICENSE` file to specify terms.
