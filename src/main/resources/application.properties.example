@@ -1,12 +1,13 @@
 spring.application.name=store
-spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
-spring.datasource.username=root
-spring.datasource.password=${DB_PASSWORD}
+spring.datasource.url=${MYSQL_URL}
+spring.datasource.username=${MYSQLUSER}
+spring.datasource.password=${MYSQLPASSWORD}
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 encryption.salt.rounds=10
-jwt.algorithm.key=${JWT_SECRET}
+
+jwt.algorithm.key=${jwt.algorithm.key}
 jwt.issuer=eCommerce
 jwt.expiryInSeconds=604800
